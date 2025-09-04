@@ -1,0 +1,85 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wjunior - Criador de GIFs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #121212;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            background: #1f1f1f;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+            color: #ccc;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .social {
+            margin: 20px 0;
+        }
+        .social a {
+            background: #ff0066;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 1.2em;
+            transition: background 0.3s ease;
+        }
+        .social a:hover {
+            background: #ff3385;
+        }
+        footer {
+            margin-top: 30px;
+            padding: 10px;
+            background: #1f1f1f;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wjunior</h1>
+        <p>Criador de GIFs</p>
+    </header><section class="gallery">
+    <img src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif" alt="GIF 1">
+    <img src="https://media.giphy.com/media/l0HlNaQ6gWfllcjDO/giphy.gif" alt="GIF 2">
+    <img src="https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif" alt="GIF 3">
+</section>
+
+<div class="social">
+    <a href="https://instagram.com/juniorpereira__" target="_blank">Meu Instagram</a>
+</div>
+
+<footer>
+    © 2025 Wjunior - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
